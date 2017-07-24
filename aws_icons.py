@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Annotate Terraform graphs with AWS icons.
 
@@ -16,6 +17,7 @@ ICONS = {
     'aws_db_instance': 'Database_AmazonRDS_RDSDBinstance.png',
     'aws_db_subnet_group': '',
     'aws_ebs_volume': 'Storage-Content-Delivery_AmazonEBS.png',
+    'aws_eip': 'Compute_AmazonEC2_ElasticIP.png',
     'aws_elasticache_cluster': 'Database_AmazonElasticCache.png',
     'aws_elasticache_subnet_group': '',
     'aws_elb': 'Compute_ElasticLoadBalancing.png',
@@ -24,6 +26,7 @@ ICONS = {
     'aws_iam_role_policy': '',
     'aws_iam_user': '',
     'aws_iam_user_policy': '',
+    'aws_internet_gateway': 'Compute_AmazonVPC_Internetgateway.png',
     'aws_launch_configuration': '',
     'aws_iam_role': 'Security-Identity_AWSIAM_role.png',
     'aws_instance': 'Compute_AmazonEC2_instance.png',
@@ -31,6 +34,7 @@ ICONS = {
     'aws_s3_bucket': 'Storage-Content-Delivery_AmazonS3_bucket.png',
     'aws_security_group': '',
     'aws_volume_attachment': '',
+    'aws_vpc': 'Networking_AmazonVPC.png',
 }
 
 
